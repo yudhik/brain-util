@@ -44,16 +44,7 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
 				<version>2.4.1</version>
-				<dependencies>
-					<dependency>
-						<groupId>org.apache.maven.plugins</groupId>
-						<artifactId>maven-scm-plugin</artifactId>
-						<version>1.8.1</version>
-					</dependency>
-				</dependencies>
-				<configuration>
-					<localCheckout>true</localCheckout>
-				</configuration>
+				<!-- <dependencies> <dependency> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-scm-plugin</artifactId> <version>1.8.1</version> </dependency> </dependencies> -->
 				<executions>
 					<execution>
 						<id>default</id>
@@ -61,7 +52,7 @@
 							<goal>perform</goal>
 						</goals>
 						<configuration>
-							<pomFileName>pom.xml</pomFileName>
+							<pomFileName>brain-util/pom.xml</pomFileName>
 						</configuration>
 					</execution>
 				</executions>
