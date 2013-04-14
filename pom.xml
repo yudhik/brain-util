@@ -52,7 +52,7 @@
 							<goal>perform</goal>
 						</goals>
 						<configuration>
-							<pomFileName>brain-util/pom.xml</pomFileName>
+							<pomFileName>pom.xml</pomFileName>
 						</configuration>
 					</execution>
 				</executions>
